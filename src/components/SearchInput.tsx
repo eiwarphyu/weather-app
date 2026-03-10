@@ -10,7 +10,7 @@ interface Props{
 
 export function SearchInput({ setData, setForecast}:Props){
   const [input, setInput] = useState('');
-  const key: string = 'fa6af6db72d0510f5a02dcd81de3dea9';
+  const key: string = import.meta.env.VITE_WEATHER_KEY;
   const fetchData = async() => {
     const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&units=metric&appid=${key}`);
 
