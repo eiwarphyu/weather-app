@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.app{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 600px;
+  background-color: #14213d;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+h1{
+  color: #fca311;
+  text-align: center;
+}
+p{
+  color: #e5e5e5;
+  text-align: center;
+  font-size: 16px;
+}

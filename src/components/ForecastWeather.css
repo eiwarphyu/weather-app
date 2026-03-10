@@ -1,0 +1,19 @@
+.forecast-container{
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10px 20px 10px;
+}
+.weather{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  padding: 10px 0;
+  background-color: rgba(229, 229, 229,0.1);
+  color: #fff;
+  backdrop-filter: blur(50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

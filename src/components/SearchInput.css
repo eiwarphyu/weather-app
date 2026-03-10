@@ -1,0 +1,24 @@
+.input-container{
+ display: flex;
+ margin: 20px;
+}
+.input-box{
+  flex-grow: 1;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  padding: 9px 12px;
+  margin-right: 5px;
+}
+.search-btn{
+  background-color: #fca311;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: none;
+}
+.search-btn:active{
+  scale: 0.99;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
